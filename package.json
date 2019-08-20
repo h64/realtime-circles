@@ -1,0 +1,24 @@
+{
+  "name": "realtime-circles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h64/realtime-circles.git"
+  },
+  "author": "Henry H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h64/realtime-circles/issues"
+  },
+  "homepage": "https://github.com/h64/realtime-circles#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
