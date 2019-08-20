@@ -6,7 +6,6 @@ const io = require('socket.io')(http);
 
 // Middleware and config
 app.use('/', express.static('static'));
-app.set('view engine', 'ejs');
 
 // Global vars
 var players = {};
@@ -38,7 +37,7 @@ io.on('connection', function (socket) {
 
 // Home route
 app.get('/', (req, res) => {
-    res.render('index');
+    res.sendFile(__dirname + '/views/index.html');
 });
 
 // Listen!
